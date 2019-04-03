@@ -1,0 +1,70 @@
+[1] "2019-04-03 19:05:09 AEDT"
+Read 0.0% of 7731241 rowsRead 28.5% of 7731241 rowsRead 41.0% of 7731241 rowsRead 50.8% of 7731241 rowsRead 62.5% of 7731241 rowsRead 76.4% of 7731241 rowsRead 93.3% of 7731241 rowsRead 7731241 rows and 2 (of 2) columns from 0.712 GB file in 00:00:24
+Classes ‘data.table’ and 'data.frame':	7731241 obs. of  2 variables:
+ $ V1: chr  "2015-03-25 21:15:00" "2015-03-25 21:13:00" "2015-03-25 21:12:00" "2015-03-25 21:11:00" ...
+ $ V2: chr  "KCXP 252115Z AUTO 08005KT 10SM CLR 17/M01 A3033 RMK AO2" "KWRB 252113Z AUTO 06005KT 10SM BKN014 OVC024 20/17 A3009 RMK AO2" "KTUL 252112Z 14006KT 10SM TS BKN035 BKN120 BKN250 24/16 A2975 RMK AO2 OCNL LTGICCC VC SW-NW TS VC SW-NW MOV NE T02390161" "KDRT 252111Z AUTO 13007KT 10SM SCT023 22/17 A2986 RMK AO2 T02170167" ...
+ - attr(*, ".internal.selfref")=<externalptr> 
+     NAME        NROW NCOL    MB COLS                                      KEY
+[1,] myData 7,731,241    6 1,448 dateTime,string,date,time,rowNum,dayLight    
+Total: 1,448MB
+     NAME        NROW NCOL  MB COLS                                      KEY
+[1,] myData 3,928,098    6 735 dateTime,string,date,time,rowNum,dayLight    
+Total: 735MB
+     NAME         NROW NCOL    MB COLS                                      KEY
+[1,] myData  3,928,098    6   735 dateTime,string,date,time,rowNum,dayLight    
+[2,] x2     50,517,649    4 1,366 rowNum,variable,value,type                   
+Total: 2,101MB
+     NAME         NROW NCOL  MB COLS                                      KEY
+[1,] myData  3,928,098    6 735 dateTime,string,date,time,rowNum,dayLight    
+[2,] x2     20,880,207    4 480 rowNum,variable,value,type                   
+Total: 1,215MB
+     NAME            NROW NCOL  MB COLS                                                         KEY
+[1,] cloudData  5,226,819    8 280 rowNum,variable,value,type,code,heightChar,height,lowCeiling    
+[2,] myData     3,928,098    6 735 dateTime,string,date,time,rowNum,dayLight                       
+[3,] x2        20,880,207    4 560 rowNum,variable,value,type                                      
+Total: 1,575MB
+     NAME            NROW NCOL  MB COLS                                                                          KEY   
+[1,] cloudData  5,226,819    8 280 rowNum,variable,value,type,code,heightChar,height,lowCeiling                        
+[2,] myData     3,928,705   10 259 rowNum,dateTime,date,time,dayLight,location,ddHHmm,wind,visibility,lowCeiling rowNum
+[3,] x2        20,880,207    4 560 rowNum,variable,value,type                                                          
+Total: 1,099MB
+     NAME        NROW NCOL  MB COLS                                                                          KEY   
+[1,] myData 3,928,705   10 259 rowNum,dateTime,date,time,dayLight,location,ddHHmm,wind,visibility,lowCeiling rowNum
+Total: 259MB
+        location       date records      good
+     1:     KCXP 2015-03-26      24 1.0000000
+     2:     KHOB 2015-03-26      19 0.3157895
+     3:     KBLV 2015-03-26      19 0.1052632
+     4:     KCGI 2015-03-26      21 0.0000000
+     5:     KEVV 2015-03-26      17 0.0000000
+    ---                                      
+278345:     KNSE 2016-04-28      13 0.3846154
+278346:     KISM 2016-04-28       8 1.0000000
+278347:     KBVI 2016-04-28       8 0.3750000
+278348:     KTIX 2016-04-28       8 0.0000000
+278349:     KRYY 2016-04-28       8 0.3750000
+     location     minDay     maxDay numDays numRecords recsPerDay  meanGood
+  1:     KCXP 2015-03-26 2016-04-28     400       9402  23.623116 0.8659340
+  2:     KHOB 2015-03-26 2016-04-28     400       7314  18.376884 0.6378376
+  3:     KBLV 2015-03-26 2016-04-28     400       5776  14.512563 0.6307762
+  4:     KCGI 2015-03-26 2016-04-28     400       5270  13.308081 0.6106677
+  5:     KEVV 2015-03-26 2016-04-28     400       5363  13.474874 0.5052405
+ ---                                                                       
+698:     KISM 2015-03-26 2016-04-28     400       2995   7.544081 0.6823515
+699:     KRYY 2015-03-26 2016-04-28     400       2942   7.429293 0.5511785
+700:     KTIX 2015-03-26 2016-04-28     400       2900   7.304786 0.0000000
+701:     KBVI 2015-03-26 2016-04-28     400       2287   6.888554 0.5387156
+702:     KGFL 2015-03-27 2016-04-28     399       5288  13.421320 0.6167049
+     location     minDay     maxDay numDays numRecords recsPerDay  meanGood
+  1:     KIWA 2015-03-26 2016-04-28     400       6517  16.374372 0.9710573
+  2:     KPHX 2015-03-26 2016-04-28     400       4772  11.989950 0.9676965
+  3:     KLUF 2015-03-26 2016-04-28     400       4891  12.288945 0.9564700
+  4:     KTUS 2015-03-26 2016-04-28     400       4777  12.032746 0.9514623
+  5:     KSDL 2015-03-26 2016-04-28     400       4800  12.060302 0.9418457
+ ---                                                                       
+698:     KQRH 2015-03-26 2016-04-28     400       4424  11.892473 0.0000000
+699:     KQSN 2015-03-26 2016-04-28     400       4599  11.914508 0.0000000
+700:     KQTZ 2015-03-26 2016-04-28     400       4745  11.922111 0.0000000
+701:     KQWM 2015-03-26 2016-03-17     358       4214  11.837079 0.0000000
+702:     KTIX 2015-03-26 2016-04-28     400       2900   7.304786 0.0000000
+[1] "00:05:04"
