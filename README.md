@@ -11,3 +11,8 @@ See -
 https://en.wikipedia.org/wiki/METAR
 https://en.wikipedia.org/wiki/Okta
 
+# main.R
+- this is a sample mainline script, which just builds a simple linear model on some sample data
+- it is structured clearly with distinct modules, which could be worked on in parrallel by different members of a team
+- these are currently script called by the mainline, rather than functions.  if being worked on my more than one person, then
+these should probably be turned into functions to avoid leaving objects around in the working environment
